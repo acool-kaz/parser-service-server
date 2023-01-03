@@ -1,0 +1,24 @@
+{
+    "parser": {
+        "parse_url": "https://gorest.co.in/public/v1/posts?page=",
+        "max_page": 2
+    },
+    "http": {
+        "port": "8081",
+        "read": 30,
+        "write": 30
+    },
+    "grpc": {
+        "host": "localhost",
+        "port": "8082",
+        "type": "tcp"
+    },
+    "database": {
+        "host": "localhost",
+        "port": "5432",
+        "username": "postgres",
+        "password": "12345",
+        "name": "postgres",
+        "ssl_mode": "disable"
+    }
+}
