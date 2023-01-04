@@ -15,7 +15,7 @@
     },
     "database": {
         "host": "localhost",
-        "port": "5436",
+        "port": "5432",
         "username": "postgres",
         "password": "12345",
         "name": "postgres",
