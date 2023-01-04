@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package grpc.parser;
 
-option go_package = "pkg/parser;parser_pb";
+option go_package = "pkg/parser/pb;parser_pb";
 
 service ParserService {
     rpc Parser(ParserRequest) returns (ParserResponse);

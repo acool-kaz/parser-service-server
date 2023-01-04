@@ -17,7 +17,7 @@ import (
 	httpHandler "github.com/acool-kaz/parser-service-server/internal/delivery/http"
 	"github.com/acool-kaz/parser-service-server/internal/repository"
 	"github.com/acool-kaz/parser-service-server/internal/service"
-	parser_pb "github.com/acool-kaz/parser-service-server/pkg/parser"
+	parser_pb "github.com/acool-kaz/parser-service-server/pkg/parser/pb"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/reflection"
 )

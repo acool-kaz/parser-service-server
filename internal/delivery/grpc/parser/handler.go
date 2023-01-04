@@ -6,7 +6,7 @@ import (
 
 	"github.com/acool-kaz/parser-service-server/internal/config"
 	"github.com/acool-kaz/parser-service-server/internal/service"
-	parser_pb "github.com/acool-kaz/parser-service-server/pkg/parser"
+	parser_pb "github.com/acool-kaz/parser-service-server/pkg/parser/pb"
 )
 
 type ParserHandler struct {
